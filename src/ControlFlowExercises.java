@@ -69,25 +69,25 @@ public class ControlFlowExercises {
 
 
 //Question 4.
-//        System.out.println("Enter a grade value from 0 to 100");
-//        int userGrade = s.nextInt();
-//        System.out.println("Would you like to see your letter grade?  Please enter Yes or No");
-//        String userContinue = s.next();
-//        if (userContinue.equals("yes")) {
-//            if (userGrade > 87) {
-//                System.out.println("Your grade is an A");
-//            } else if (userGrade > 79) {
-//                System.out.println("Your grade is a  B");
-//            } else if (userGrade > 65) {
-//                System.out.println("Your grade is a C");
-//            } else if (userGrade > 59) {
-//                System.out.println("Your grade is a D");
-//            } else {
-//                System.out.println("Your grade is an F");
-//
-//            }
-//        } else {
-//            System.out.println("No problem!");
-//        }
+        System.out.println("Enter a grade value from 0 to 100");
+        int userGrade = scanner.nextInt();
+        System.out.println("Would you like to see your letter grade?  Please enter Yes or No");
+        String userContinue = scanner.next();
+        if (userContinue.equals("yes")) {
+            if (userGrade > 87) {
+                System.out.println("Your grade is an A");
+            } else if (userGrade > 79) {
+                System.out.println("Your grade is a  B");
+            } else if (userGrade > 65) {
+                System.out.println("Your grade is a C");
+            } else if (userGrade > 59) {
+                System.out.println("Your grade is a D");
+            } else {
+                System.out.println("Your grade is an F");
+
+            }
+        } else {
+            System.out.println("No problem!");
+        }
     }
 }
