@@ -71,7 +71,7 @@ public class ControlFlowExercises {
 //Question 4.
         System.out.println("Enter a grade value from 0 to 100");
         int userGrade = scanner.nextInt();
-        System.out.println("Would you like to see your letter grade?  Please enter Yes or No");
+        System.out.println("Would you like to see your grade?  Please enter Yes or No");
         String userContinue = scanner.next();
         if (userContinue.equals("yes")) {
             if (userGrade > 87) {
@@ -84,7 +84,6 @@ public class ControlFlowExercises {
                 System.out.println("Your grade is a D");
             } else {
                 System.out.println("Your grade is an F");
-
             }
         } else {
             System.out.println("No problem!");
