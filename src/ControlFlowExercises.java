@@ -62,7 +62,7 @@ public class ControlFlowExercises {
 
         } System.out.println(userInput + "     |");*/
 
-        boolean willContinue = false;
+//        boolean willContinue = false;
 
         // Help for number 3 From Chris lee
 //do {
