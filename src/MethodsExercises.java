@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class MethodsExercises {
-    public static void main(String[] args) {
-rolldice()
-        System.out.println(getInteger(1,6));
+//public class MethodsExercises {
+//    public static void main(String[] args) {
+//rolldice()
+//        System.out.println(getInteger(1,6));
 //        System.out.println(add(4, 2));
 //        System.out.println(subtract(6, 2));
 //        System.out.println(multiply(3, 2));
@@ -14,7 +14,7 @@ rolldice()
 //        System.out.println(getInteger(1,10));
 //        System.out.println(factorialNum(10));
 
-    }
+//    }
 
 //    public static void sayName(String name) {
 //        sayName("Hi", name);
@@ -59,18 +59,18 @@ rolldice()
 // TODO: overload the addition method from the curriculum exercise to both add integers and add doubles
 
 
-    public static int getInteger(int min, int max) {
-
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a number between 1 and 10 \n");
-        String userInput = scanner.nextLine();
-        int userInt = Integer.parseInt(userInput);
-        if (userInt >= min && userInt <= max) {
-            System.out.println("Right answer!");
-            return userInt;
-        } else {
-            return getInteger(min, max);
-        }
+//    public static int getInteger(int min, int max) {
+//
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Enter a number between 1 and 10 \n");
+//        String userInput = scanner.nextLine();
+//        int userInt = Integer.parseInt(userInput);
+//        if (userInt >= min && userInt <= max) {
+//            System.out.println("Right answer!");
+//            return userInt;
+//        } else {
+//            return getInteger(min, max);
+//        }
 //public static int factorialNum(int num1) {
 //
 //    Scanner scanner = new Scanner(System.in);
@@ -87,25 +87,27 @@ rolldice()
 //
 //}
 
-        public static int randomDice(min,max){
+//        public static int randomDice(min,max){
+//
+//            return min + (int) (Math.random() * ((max - min) + 1));
+//        }
+//
+//        public static void rollDice () {
+//
+//            System.out.println("Please enter the number of sides for a pair of dice: \n");
+//            System.out.print("Roll diceg");
+//            int noOfSidesOfDice = getInteger(1, 6);
+//            System.out.printf("You rolled %d and a %d",
+//                    randomDice(1, noOfSidesOfDice),
+//                    randomDice(1, noOfSidesOfDice));
+//
+//        }
+//
+//
+//    }
+//}
 
-            return min + (int) (Math.random() * ((max - min) + 1));
-        }
 
-        public static void rollDice () {
-
-            System.out.println("Please enter the number of sides for a pair of dice: \n");
-            System.out.print("Roll diceg");
-            int noOfSidesOfDice = getInteger(1, 6);
-            System.out.printf("You rolled %d and a %d",
-                    randomDice(1, noOfSidesOfDice),
-                    randomDice(1, noOfSidesOfDice));
-
-        }
-
-
-    }
-}
 
 
 
