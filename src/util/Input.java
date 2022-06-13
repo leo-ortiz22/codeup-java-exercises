@@ -15,7 +15,7 @@ public class Input {
     }
     public boolean yesNo() {
         String userInput = scanner.nextLine().toLowerCase();
-        return userInput.equals("yes") || userInput.equals("y") || userInput.equals("true");
+        return userInput.equalsIgnoreCase("yes") || userInput.equalsIgnoreCase("y");
     }
     public int getInt(int min, int max) {
         int userInput = min - 1;
@@ -32,7 +32,7 @@ public class Input {
     }
     public double getDouble(double min, double max) {
         double userInput = min - 1;
-        while (userInput > max || userInput < min){
+        while (userInput < min || userInput > max){
             System.out.println("Enter an double between " + min + " and " + max + ".");
             userInput = scanner.nextDouble();
         }
