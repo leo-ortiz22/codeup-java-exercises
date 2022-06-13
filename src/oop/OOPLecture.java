@@ -1,4 +1,4 @@
-package opp;
+package oop;
 public class OOPLecture {
     public static void main(String[] args) {
         Post post = new Post();

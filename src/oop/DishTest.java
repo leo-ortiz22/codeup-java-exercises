@@ -1,4 +1,4 @@
-package opp;
+package oop;
 
  class DishTest {
     public static void main(String[] args) {

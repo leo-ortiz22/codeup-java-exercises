@@ -1,4 +1,4 @@
-package opp;
+package oop;
 
 public class DishTools {
     final static int  AVG_COST_OF_DISH_IN_CENTS = 13000;
