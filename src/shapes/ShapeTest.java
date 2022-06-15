@@ -9,7 +9,7 @@ public class ShapeTest {
         Rectangle box2 = new Square(5);
         System.out.println(box2.getPerimeter());
         System.out.println(box2.getArea());
-        System.out.println(box2);
-        System.out.println(box1);
+
+
     }
 }

@@ -2,8 +2,6 @@ package shapes;
 
 public class Rectangle {
     protected int width;
-
-
     protected int length;
 
     public Rectangle() {
@@ -33,10 +31,12 @@ public class Rectangle {
     }
 
     public int getArea(){
+        System.out.println("This is the rectangle method");
 
         return length * width;
     }
     public int getPerimeter(){
+        System.out.println("This is the rectangle method");
 
         return 2 * length + 2 * width;
     }

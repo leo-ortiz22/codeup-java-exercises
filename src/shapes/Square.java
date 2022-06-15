@@ -2,22 +2,24 @@ package shapes;
 
 public class Square extends Rectangle{
 
-
+    private int side;
 
     public Square(int side) {
         super(side,side);
+        this.side = side;
 
     }
 
-@Override
+    @Override
     public int getArea() {
-
-        return length * length;
+        System.out.println("This is the square method");
+        return side * side;
     }
 
-@Override
+    @Override
     public int getPerimeter() {
+        System.out.println("This is the square method");
 
-        return 4 * length ;
+        return side *4;
     }
 }
