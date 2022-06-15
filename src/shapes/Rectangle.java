@@ -2,8 +2,7 @@ package shapes;
 
 public class Rectangle {
     protected int width;
-    private int area;
-    private int perimeter;
+
 
     protected int length;
 
@@ -34,12 +33,12 @@ public class Rectangle {
     }
 
     public int getArea(){
-        area = length * width;
-        return area;
+
+        return length * width;
     }
     public int getPerimeter(){
-        perimeter = 2 * length + 2 * width;
-        return perimeter;
+
+        return 2 * length + 2 * width;
     }
 
 
