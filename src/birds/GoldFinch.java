@@ -1,4 +1,5 @@
 package birds;
 
-public class GoldFinch {
+public class GoldFinch extends Bird {
+
 }

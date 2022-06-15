@@ -16,4 +16,7 @@ public class Penguins extends Bird{
         super.move();
         System.out.println("Whoosh Whoosh");
     }
+    public Penguins(String name){
+this.setName(name);
+    }
 }

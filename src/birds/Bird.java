@@ -13,14 +13,16 @@ private String name;
         return makeNoise;
     }
 
-    public void setMakeNoise(String makeNoise) {
-        this.makeNoise = makeNoise;
-    }
+    public void setMakeNoise() {System.out.println(this.getName() + "goes tweet tweet");}
 
-    public static void setName(String name) {
-        name = name;
+    public void setName(String name) {
+        this.name = name;
     }
     public void move(){
         System.out.println("Flap Flap");
+    }
+public Bird(){}
+    public Bird(String name){
+        this.setName(name);
     }
 }
